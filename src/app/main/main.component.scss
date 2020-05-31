@@ -1,0 +1,41 @@
+.header-name {
+    margin-left: 1rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.main-container {
+    flex-grow: 1;
+    mat-sidenav {
+        width: 200px;
+    }
+    mat-sidenav-content {
+        display: block;
+        height: 100%;
+        padding: 1rem;
+
+        section[class$='-container'] {
+            padding-bottom: 1rem;
+            width: 70%;
+        }
+    
+        div[class$='-info'] {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+footer {
+    .footer-container { 
+        min-height: 2rem;
+        .footer-contents {
+            height: 2rem;
+            .name-email {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

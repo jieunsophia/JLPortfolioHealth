@@ -1,0 +1,19 @@
+:host {
+    .nav-link {
+        font-family: Caladea,"Helvetica Neue",sans-serif !important;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        padding: 1rem;
+        border: 1px solid transparent;
+
+        &:hover {
+            border: 1px solid white;
+        }
+
+        &.active {
+            border: 1px solid white;
+        }
+    }
+}

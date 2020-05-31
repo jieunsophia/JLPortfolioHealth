@@ -1,0 +1,28 @@
+<header>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <a class="header-name" routerLink="">Jieun Lee</a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>
+
+<mat-sidenav-container class="main-container">
+  <mat-sidenav mode="side" opened>
+    <ng-container *ngFor="let item of navListItems">
+      <app-nav-list-item  [link]=item.link [title]="item.title"></app-nav-list-item>
+    </ng-container>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<footer>
+  <mat-toolbar class="footer-container" color="primary">
+    <mat-toolbar-row class="footer-contents">
+      <div class="mat-small name-email">
+        Jieun Lee  |  jieun2@illinois.edu
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer>

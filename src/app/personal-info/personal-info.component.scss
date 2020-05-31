@@ -1,0 +1,22 @@
+:host {
+    .image-container {
+        margin-bottom: 1rem;
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    .email-info {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .education-info {
+        .education {
+            padding-bottom: 0.5rem;
+        }
+    }
+}
