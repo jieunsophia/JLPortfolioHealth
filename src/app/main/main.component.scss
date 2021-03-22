@@ -1,11 +1,18 @@
-.header-name {
-    margin-left: 1rem;
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    font-size: 1.5rem;
+header {
+    .mat-toolbar {
+        background: #4c0404;
+    }
+
+    .header-name {
+        margin-left: 1rem;
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
 }
+
 .main-container {
     flex-grow: 1;
     mat-sidenav {
@@ -30,6 +37,7 @@
 footer {
     .footer-container { 
         min-height: 2rem;
+        background: #4c0404;
         .footer-contents {
             height: 2rem;
             .name-email {
