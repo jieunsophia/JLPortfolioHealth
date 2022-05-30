@@ -11,7 +11,7 @@ export class MainComponent implements OnInit {
   public navListItems = [
     {
       title: "Home",
-      link: "profile"
+      link: "home"
     },
     {
       title: "CV",
@@ -19,7 +19,7 @@ export class MainComponent implements OnInit {
     },
     {
       title: "Profile",
-      link: "education"
+      link: "profile"
     },
     {
       title: "Research in Progress",

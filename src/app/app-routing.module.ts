@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProfileInfoComponent } from './profile-info/profile-info.component';
+import { HomeComponent } from './home/home.component';
 import { ResearchInfoComponent } from './research-info/research-info.component';
-import { EducationComponent } from './education/education.component';
+import { ProfileComponent } from './profile/profile.component';
 import { CVComponent } from './cv/cv.component';
 import { PublicationsComponent } from './publications/publications.component'
 
 const routes: Routes = [
-  { path: '', component: ProfileInfoComponent },
-  { path: 'profile', component: ProfileInfoComponent },
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'research', component: ResearchInfoComponent },
-  { path: 'education', component: EducationComponent },
+  { path: 'profile', component: ProfileComponent },
   { path: 'cv', component: CVComponent },
   { path: 'publications', component: PublicationsComponent }
 ];
