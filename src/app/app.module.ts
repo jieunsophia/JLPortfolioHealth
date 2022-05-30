@@ -22,7 +22,7 @@ import { TeachingComponent } from './teaching/teaching.component';
     SectionHeaderComponent,
     ResearchInfoComponent,
     HonorsComponent,
-    TeachingComponent
+    TeachingComponent,
   ],
   imports: [
     BrowserModule,

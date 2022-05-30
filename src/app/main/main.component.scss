@@ -1,6 +1,14 @@
 header {
     .mat-toolbar {
-        background: #4c0404;
+        background-image: url("../../assets/images/toolbar_bg.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        &-row {
+            height: 100px;
+        }
     }
 
     .header-name {
