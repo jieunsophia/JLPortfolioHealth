@@ -6,23 +6,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MainComponent } from './main/main.component';
-import { PersonalInfoComponent } from './personal-info/personal-info.component';
+import { ProfileInfoComponent} from './profile-info/profile-info.component';
 import { NavListItemComponent } from './nav-list-item/nav-list-item.component';
 import { SectionHeaderComponent } from './section-header/section-header.component';
 import { ResearchInfoComponent } from './research-info/research-info.component';
-import { HonorsComponent } from './honors/honors.component';
-import { TeachingComponent } from './teaching/teaching.component';
+import { EducationComponent } from './education/education.component';
+import { CVComponent } from './cv/cv.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    PersonalInfoComponent,
+    ProfileInfoComponent,
     NavListItemComponent,
     SectionHeaderComponent,
     ResearchInfoComponent,
-    HonorsComponent,
-    TeachingComponent,
+    EducationComponent,
+    CVComponent,
+    PublicationsComponent,
+  
   ],
   imports: [
     BrowserModule,

@@ -10,20 +10,24 @@ export class MainComponent implements OnInit {
 
   public navListItems = [
     {
-      title: "Personal Info",
-      link: "personalInfo"
+      title: "Home",
+      link: "profile"
     },
     {
-      title: "Research",
+      title: "CV",
+      link: "cv"
+    },
+    {
+      title: "Profile",
+      link: "education"
+    },
+    {
+      title: "Research in Progress",
       link: "research"
     },
     {
-      title: "Honors",
-      link: "honors"
-    },
-    {
-      title: "Teaching",
-      link: "teaching"
+      title: "Publications & Conferences",
+      link: "publications"
     }
   ]
 

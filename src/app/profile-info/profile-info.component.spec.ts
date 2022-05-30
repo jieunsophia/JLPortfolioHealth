@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PersonalInfoComponent } from './personal-info.component';
+import { ProfileInfoComponent } from './profile-info.component';
 
-describe('PersonalInfoComponent', () => {
-  let component: PersonalInfoComponent;
-  let fixture: ComponentFixture<PersonalInfoComponent>;
+describe('ProfileInfoComponent', () => {
+  let component: ProfileInfoComponent;
+  let fixture: ComponentFixture<ProfileInfoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PersonalInfoComponent ]
+      declarations: [ ProfileInfoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PersonalInfoComponent);
+    fixture = TestBed.createComponent(ProfileInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

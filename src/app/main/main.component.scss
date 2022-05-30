@@ -1,6 +1,6 @@
 header {
     .mat-toolbar {
-        background-image: url("../../assets/images/toolbar_bg.png");
+        background-image: url("../../assets/images/toolbar_bg3.png");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -15,7 +15,7 @@ header {
         margin-left: 1rem;
         display: block;
         text-decoration: none;
-        color: white;
+        color: rgba(255, 255, 255, 0.849);
         padding: 1rem;
         font-size: 1.5rem;
     }
@@ -45,10 +45,11 @@ header {
 footer {
     .footer-container { 
         min-height: 2rem;
-        background: #4c0404;
+        background: #f0dadd;
         .footer-contents {
             height: 2rem;
             .name-email {
+                color: black;
                 width: 100%;
                 text-align: center;
             }
