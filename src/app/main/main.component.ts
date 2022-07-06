@@ -26,7 +26,7 @@ export class MainComponent implements OnInit {
       link: "research"
     },
     {
-      title: "Publications & Conferences",
+      title: "Publications & Presentations",
       link: "publications"
     }
   ]
