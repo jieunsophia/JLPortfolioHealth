@@ -13,6 +13,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { CVComponent } from './cv/cv.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
+import { TeachingComponent } from './teaching/teaching.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HomeComponent } from './home/home.component';
     CVComponent,
     PublicationsComponent,
     HomeComponent,
+    TeachingComponent,
   ],
   imports: [
     BrowserModule,
