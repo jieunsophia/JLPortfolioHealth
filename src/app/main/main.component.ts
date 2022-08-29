@@ -32,6 +32,14 @@ export class MainComponent implements OnInit {
     {
       title: "Teaching",
       link: "teaching"
+    },
+    {
+      title: "Recommendations",
+      link: "recommendation"
+    },
+    {
+      title: "Files",
+      link: "files"
     }
   ]
 

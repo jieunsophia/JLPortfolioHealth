@@ -15,6 +15,8 @@ import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
 import { TeachingComponent } from './teaching/teaching.component';
 import { ThesisChaptersComponent } from './thesis-chapters/thesis-chapters.component';
+import { RecommendationsComponent } from './recommendations/recommendations.component';
+import { FilesComponent } from './files/files.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { ThesisChaptersComponent } from './thesis-chapters/thesis-chapters.compo
     HomeComponent,
     TeachingComponent,
     ThesisChaptersComponent,
+    RecommendationsComponent,
+    FilesComponent,
   ],
   imports: [
     BrowserModule,
