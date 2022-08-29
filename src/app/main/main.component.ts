@@ -18,12 +18,16 @@ export class MainComponent implements OnInit {
       link: "profile"
     },
     {
-      title: "Research",
-      link: "research"
-    },
-    {
       title: "Academic Activities",
       link: "publications"
+    },
+    {
+      title: "Thesis Chapters",
+      link: "thesis"
+    },
+    {
+      title: "Research",
+      link: "research"
     },
     {
       title: "Teaching",

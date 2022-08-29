@@ -14,6 +14,7 @@ import { CVComponent } from './cv/cv.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
 import { TeachingComponent } from './teaching/teaching.component';
+import { ThesisChaptersComponent } from './thesis-chapters/thesis-chapters.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TeachingComponent } from './teaching/teaching.component';
     PublicationsComponent,
     HomeComponent,
     TeachingComponent,
+    ThesisChaptersComponent,
   ],
   imports: [
     BrowserModule,
