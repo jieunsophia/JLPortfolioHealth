@@ -14,7 +14,6 @@ import { CVComponent } from './cv/cv.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
 import { TeachingComponent } from './teaching/teaching.component';
-import { ThesisChaptersComponent } from './thesis-chapters/thesis-chapters.component';
 import { RecommendationsComponent } from './recommendations/recommendations.component';
 import { FilesComponent } from './files/files.component';
 
@@ -30,7 +29,6 @@ import { FilesComponent } from './files/files.component';
     PublicationsComponent,
     HomeComponent,
     TeachingComponent,
-    ThesisChaptersComponent,
     RecommendationsComponent,
     FilesComponent,
   ],

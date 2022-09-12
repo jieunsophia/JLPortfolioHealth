@@ -22,10 +22,6 @@ export class MainComponent implements OnInit {
       link: "publications"
     },
     {
-      title: "Thesis Chapters",
-      link: "thesis"
-    },
-    {
       title: "Research",
       link: "research"
     },
