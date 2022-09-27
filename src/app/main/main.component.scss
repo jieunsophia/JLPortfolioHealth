@@ -33,7 +33,10 @@ header {
 
         section[class$='-container'] {
             padding-bottom: 1rem;
-            width: 70%;
+        }
+
+        section:last-child {
+            margin-bottom: 50px;
         }
     
         div[class$='-info'] {
@@ -47,11 +50,11 @@ footer {
         min-height: 2rem;
         background: #f0dadd;
         .footer-contents {
-            height: 2rem;
             .name-email {
                 color: black;
                 width: 100%;
                 text-align: center;
+                font-weight: bold;
             }
         }
     }

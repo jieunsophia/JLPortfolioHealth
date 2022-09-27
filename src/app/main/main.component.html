@@ -1,13 +1,21 @@
 <header>
   <mat-toolbar>
     <mat-toolbar-row>
+      <button
+        mat-icon-button
+        *ngIf="sidenav.mode === 'over'"
+        (click)="sidenav.toggle()"
+      >
+        <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+        <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+    </button>
       <a class="header-name" routerLink=""><font size="+3"><b>Jieun Lee (이지은)</b></font></a>
     </mat-toolbar-row>
   </mat-toolbar>
 </header>
 
 <mat-sidenav-container class="main-container">
-  <mat-sidenav mode="side" opened>
+  <mat-sidenav #sidenav="matSidenav">
     <ng-container *ngFor="let item of navListItems">
       <app-nav-list-item  [link]=item.link [title]="item.title"></app-nav-list-item>
     </ng-container>
@@ -21,7 +29,9 @@
   <mat-toolbar class="footer-container">
     <mat-toolbar-row class="footer-contents">
       <div class="mat-small name-email">
-        <b>Jieun Lee (이지은)</b>  | Ph.D candidate in Department of Economics, University of Illinois Urbana-Champaign, USA | <a href = "mailto: jieun2@illinois.edu"> jieun2@illinois.edu </a>
+        <div>Ph.D candidate in Department of Economics</div>
+        <div>University of Illinois Urbana-Champaign</div>
+        <div>Jieun Lee | <a href = "mailto: jieun2@illinois.edu"> jieun2@illinois.edu </a></div>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
