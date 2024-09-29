@@ -9,7 +9,13 @@
         <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
         <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
     </button>
+    <div>
       <a class="header-name" routerLink=""><font size="+3"><b>Jieun Lee (이지은)</b></font></a>
+      <div class="mat-body">
+        <div>Postdoctoral Fellow at Emory University Rollins School of Public Health, <a href="mailto:jieun.lee@emory.edu">jieun.lee@emory.edu</a></div>
+      </div>
+    </div>
+    
     </mat-toolbar-row>
   </mat-toolbar>
 </header>
@@ -24,15 +30,3 @@
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
-
-<footer>
-  <mat-toolbar class="footer-container">
-    <mat-toolbar-row class="footer-contents">
-      <div class="mat-small name-email">
-        <div>Ph.D candidate in Department of Economics</div>
-        <div>University of Illinois Urbana-Champaign</div>
-        <div>Jieun Lee | <a href = "mailto: jieun2@illinois.edu"> jieun2@illinois.edu </a></div>
-      </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
-</footer>

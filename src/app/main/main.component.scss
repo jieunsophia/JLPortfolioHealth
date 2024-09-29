@@ -1,22 +1,33 @@
 header {
     .mat-toolbar {
-        background-image: url("../../assets/images/toolbar_bg3.png");
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
 
+        background: none;
         &-row {
             height: 100px;
+            color: rgb(70, 70, 70);
         }
     }
 
+    .mat-toolbar::before {
+        content: '';
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../../assets/images/toolbar_bg3.png");
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+        transform: scaleX(-1); /* Flip the background horizontally */
+        z-index: -1; /* Ensure it's behind the content */
+      }
+
     .header-name {
-        margin-left: 1rem;
         display: block;
         text-decoration: none;
-        color: rgba(255, 255, 255, 0.849);
-        padding: 1rem;
+        color: rgb(70, 70, 70);
         font-size: 1.5rem;
     }
 }
