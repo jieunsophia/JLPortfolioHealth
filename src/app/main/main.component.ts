@@ -36,7 +36,7 @@ export class MainComponent implements OnInit {
       link: "research"
     },
     {
-      title: "Teaching",
+      title: "Teaching & Service",
       link: "teaching"
     },
     {
