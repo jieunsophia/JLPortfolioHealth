@@ -23,7 +23,9 @@ header {
         transform: scaleX(-1); /* Flip the background horizontally */
         z-index: -1; /* Ensure it's behind the content */
       }
-
+    .professional-title {
+        white-space: break-spaces;
+    }  
     .header-name {
         display: block;
         text-decoration: none;
