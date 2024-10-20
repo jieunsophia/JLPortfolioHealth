@@ -24,20 +24,20 @@ export class MainComponent implements OnInit {
       link: "home"
     },
     {
-      title: "Education",
-      link: "profile"
-    },
-    {
-      title: "Academic Activities",
-      link: "publications"
-    },
-    {
       title: "Research",
       link: "research"
     },
     {
       title: "Teaching & Service",
       link: "teaching"
+    },
+    {
+      title: "Academic Activities",
+      link: "publications"
+    },
+    {
+      title: "Education",
+      link: "profile"
     },
     {
       title: "Recommendations",
